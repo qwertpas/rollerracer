@@ -1,5 +1,5 @@
 !["Roller Racers"](gifs/commercial.gif)
-![Roller Racer](diagram.png)
+![Roller Racer](resources/diagram.png)
 
 This repository contains python simulation and visualization of "Roller Racers", an old kids toy that allows you to skate by turning your arms back and forth. It's also an interesting nonholonomic dynamics system with two rigid bodies connected by an actuated revolute joint. Each body has passive wheels on a single fixed axis allowing it to only roll in one direction, creating the nonholonomic constraints. Kind of like a 2 link snake robot. Equations of motion come from the paper [Exotic Dynamics of Nonholonomic Roller Racer with Periodic Control](https://github.com/qwertpas/rollerracer/blob/5455f29f771e633fa4af59d916ceac52251127f4/resources/Exotic%20Dynamics%20of%20Nonholonomic%20Roller%20Racer.pdf).
 
