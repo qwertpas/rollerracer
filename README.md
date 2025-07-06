@@ -1,11 +1,7 @@
-# Roller Racer Simulation
-
-
-## Overview
-
+!["Roller Racers"](gifs/commercial.gif)
 ![Roller Racer](diagram.png)
 
-This repository contains python simulation and visualization of "Roller Racers", a nonholonomic system with two rigid bodies connected by an actuated revolute joint. Each body has wheels on a single fixed axis allowing it to only roll in one direction, creating the nonholonomic constraints. It's also like a 2 link snake robot. See the paper 
+This repository contains python simulation and visualization of "Roller Racers", an old kids toy that allows you to skate by turning your arms back and forth. It's also an interesting nonholonomic dynamics system with two rigid bodies connected by an actuated revolute joint. Each body has passive wheels on a single fixed axis allowing it to only roll in one direction, creating the nonholonomic constraints. Kind of like a 2 link snake robot. Equations of motion come from the paper [Exotic Dynamics of Nonholonomic Roller Racer with Periodic Control](https://github.com/qwertpas/rollerracer/blob/5455f29f771e633fa4af59d916ceac52251127f4/resources/Exotic%20Dynamics%20of%20Nonholonomic%20Roller%20Racer.pdf).
 
 ## Simulations
 
@@ -15,14 +11,15 @@ This repository contains python simulation and visualization of "Roller Racers",
 
 ### Swarms
 The system is a bit chaotic and variations in parameters create really interesting swarm trajectories:
-![Mass Variation](gifs/diffmass50.gif)
+![Roller Racer Swarm](gifs/roller_racer_swarm_compressed.gif)
 ![Moment of Inertia Variation](gifs/diffJ150.gif)
 ![Frequency Variation](gifs/diffomega50.gif)
 ![Symmetric Frequency Variation](gifs/diffomegasym.gif)
 ![Phase Variation](gifs/diffphase50.gif)
 ![Amplitude with High Friction](gifs/diffamp50bigfric.gif)
 ![Amplitude with Negative Friction](gifs/diffamp50negfric.gif)
-![Roller Racer Swarm](gifs/roller_racer_swarm_compressed.gif)
+![Mass Variation](gifs/diffmass50.gif)
+
 
 
 
